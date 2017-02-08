@@ -1,0 +1,27 @@
+{
+  "name": "apiai-sonos-webhook",
+  "description": "Webhook for connecting Sonos and Google Home",
+  "version": "0.0.1",
+  "author": "Daniel Baah",
+  "main": "inde.js",
+  "keywords": [],
+  "license": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielduhh/my_package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielduhh/my_package/issues"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "q": "^1.4.1",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {}
+}
